@@ -1,0 +1,25 @@
+# === sysopt runtime state ===
+# Collected data, reports, and local config — machine-specific, not for version control
+.sysopt/
+
+# === Claude Code local config ===
+.claude/settings.local.json
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Editor / IDE files ===
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# === Temp files ===
+*.tmp
+*.bak
+*.log
